@@ -1,6 +1,22 @@
+<script lang="ts">
+import CounterEx from '../components/CounterEx.vue'
+
+export default {
+  components: { CounterEx },
+  data() {
+    return {
+      msg: 'HELLO'
+    }
+  }
+}
+</script>
+
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <div>
+      <h1>This is an about page</h1>
+      <CounterEx />
+    </div>
   </div>
 </template>
 
