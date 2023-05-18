@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import { useCounterStore } from '@/stores/counter'
-import CounterPinaEx from '@/components/CounterPinaEx.vue'
 
 const counter = useCounterStore()
 </script>
@@ -15,7 +14,6 @@ const counter = useCounterStore()
       <button type="button" @click="counter.dec">Sync--</button>
       <button type="button" @click="counter.asyncInc">ASync++</button>
     </div>
-    <div><CounterPinaEx /></div>
   </div>
 </template>
 
